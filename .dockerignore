@@ -1,0 +1,3 @@
+# ignore .git directories
+.git*
+.gitignore
