@@ -12,6 +12,8 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_HOST: db
+      GITHUB_CLIENT_ID: f8fb450954626be0a9fe
+      GITHUB_CLIENT_SECRET: 68df496a226ecb70c45e9fd5b5b84cd0498f81e7
     volumes:
       - .:/app
     depends_on:
